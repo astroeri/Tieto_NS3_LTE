@@ -14,8 +14,11 @@ git clone https://github.com/astroeri/tietons3lte
 How to commit
 ==============
 If you have added a files/directories or just simply maipulated a file.
+
 Remember YOU are responsible for your commits. Make sure they work.
+
 git add .
+
 git commit
 
 
