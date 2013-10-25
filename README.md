@@ -25,6 +25,8 @@ git push
 
 NS-3 build specific details.
 ==============
+Locate the repo in ns-3-dev/src.
+
 When you add a new model, example or test wscript needs to be updated.
 Read:
 http://www.nsnam.org/docs/manual/html/new-modules.html
