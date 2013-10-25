@@ -1,4 +1,5 @@
-Tieto_NS3_LTE-
+Tieto_NS3_LTE
 ==============
 
-TLearning stuff for NS-3 simulator and LTE in particular
+Learning stuff for NS-3 simulator and LTE in particular.
+Remember only put files and information not owned by customer.
