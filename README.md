@@ -6,6 +6,10 @@ Aimed is to spread knowledge about NS-3 simulator and LTE in particular.
 
 Remember only put files and information not owned by customer.
 
+Before you start
+==============
+READ:<br>
+https://help.github.com/articles/set-up-git#platform-linux
 
 How to clone
 ==============
