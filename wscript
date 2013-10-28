@@ -7,7 +7,7 @@
 #     conf.check_nonfatal(header_name='stdint.h', define_name='HAVE_STDINT_H')
 
 def build(bld):
-    module = bld.create_ns3_module('tietons3lte', ['core'])
+    module = bld.create_ns3_module('tietons3lte', ['core','network', 'spectrum', 'stats', 'buildings', 'virtual-net-device','point-to-point','applications','internet','csma'])
     module.source = [
         'model/tietons3lte.cc',
         'helper/tietons3lte-helper.cc',
@@ -28,5 +28,5 @@ def build(bld):
     if bld.env.ENABLE_EXAMPLES:
         bld.recurse('examples')
 
-    # bld.ns3_python_bindings()
+    bld.ns3_python_bindings()
 
